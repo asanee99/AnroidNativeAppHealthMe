@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme_old" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#FF7043</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">#FF7043</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:icon">@drawable/applogo</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">#448AFF</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:windowBackground">@color/bright_foreground_material_dark</item>
+        <item name="android:textViewStyle">@style/AppTheme.Widget.TextView</item>
+        <item name="android:actionBarTabStyle">@style/MyTheme.ActionBar.TabView</item>
+    </style>
+
+
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/Fontcraft.ttf</item>
+    </style>
+    <style name="TextViewCustomFont">
+        <item name="fontPath">fonts/Fontcraft.ttf</item>
+    </style>
+
+    <style name="AppTheme.Widget"/>
+
+    <style name="AppTheme.Widget.TextView" parent="android:Widget.Material.Light.TextView">
+        <item name="fontPath">fonts/Fontcraft.otf</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TabView" parent="android:style/Widget.Material.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_bar_background</item>
+    </style>
+
+</resources>

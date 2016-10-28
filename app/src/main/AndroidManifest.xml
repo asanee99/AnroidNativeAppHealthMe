@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaow.caltest" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SubActivity"
+            android:label="ผลจากการคำนวณของคุณ" />
+        <activity android:name=".ShowFoodUp" />
+        <activity android:name=".ShowFoodDown" />
+        <activity android:name=".ShowFoodMid" />
+        <activity android:name=".ShowNews" />
+        <activity
+            android:name=".MainFrag"
+            android:label="เมนูอาหารแนะนำ" />
+        <activity
+            android:name=".Show_p_data"
+            android:label="ข้อมูลพื้นฐานของคุณ" />
+        <activity android:name=".ShowFoodAll" />
+        <activity
+            android:name=".ShowFoodList"
+            android:label="รายการอาหาร" />
+        <activity
+            android:name=".FristPage"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".MoreInfo"
+            android:label="รายละเอียดเกณฑ์" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Drawer"
+            android:label="รายการอาหาร"
+            android:theme="@style/AppTheme_old" >
+        </activity>
+
+        <service
+            android:name=".MyAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name=".MyReceiver" />
+
+        <activity
+            android:name=".Develop"
+            android:label="ข้อมูลผู้พัฒนา" >
+        </activity>
+        <activity
+            android:name=".UserInfo"
+            android:label="ข้อมูลผู้ใช้" >
+        </activity>
+        <activity
+            android:name=".Exercise_new"
+            android:label="@string/title_activity_exercise_new" >
+        </activity>
+        <activity
+            android:name=".Exercise_Recly"
+            android:label="หลักการออกกำลังกาย" >
+        </activity>
+        <activity
+            android:name=".EXER_INFO"
+            android:label="@string/title_activity_exer__info" >
+        </activity>
+        <activity
+            android:name=".EXER_INFOFragment"
+            android:label="หลักการออกกำลังกาย" >
+        </activity>
+        <activity
+            android:name=".FoodMenu"
+            android:label="เมนูแนะนำ"
+            android:theme="@style/AppTheme_old" >
+        </activity>
+        <activity
+            android:name=".Menu1"
+            android:label="@string/title_activity_menu1" >
+        </activity>
+        <activity
+            android:name=".SumFood"
+            android:label="ผลการกำหนดรายการอาหาร" >
+        </activity>
+        <activity
+            android:name=".dummy.ExerList"
+            android:label="@string/title_activity_exer_list" >
+        </activity>
+        <activity
+            android:name=".dummy.CalExer"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:label="@string/title_activity_cal_exer" >
+        </activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

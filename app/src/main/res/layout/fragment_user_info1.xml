@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:elevation="1dp"
+    android:background="@drawable/bg"
+    tools:context="com.example.kaow.caltest.UserInfo1Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white"
+        android:showDividers="middle"
+        android:divider="?android:listDivider"
+        android:elevation="2dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp"
+            android:text="ชื่อผู้ใช้"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:text="ชื่อผู้ใช้"
+            android:textSize="16dp"
+            android:textColor="#EF5350"
+            android:id="@+id/username"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="เพศ"
+            android:textSize="20dp"
+            android:paddingLeft="40dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="85dp"
+            android:text="แสดงเพศ"
+            android:textSize="16dp"
+            android:textColor="#EF5350"
+            android:id="@+id/show_sex"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="อายุ"
+            android:textSize="20dp"
+            android:paddingLeft="40dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="แสดงอายุ"
+            android:textSize="16dp"
+            android:layout_marginLeft="85dp"
+            android:textColor="#EF5350"
+            android:id="@+id/show_age"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="     ปี"
+            android:textSize="16dp"
+
+            android:textColor="#EF5350"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="น้ำหนัก"
+            android:textSize="20dp"
+            android:paddingLeft="40dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:text="แสดงน้ำหนัก"
+            android:textSize="16dp"
+            android:textColor="#EF5350"
+            android:id="@+id/show_weight"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  กก."
+            android:textSize="16dp"
+            android:textColor="#EF5350"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ส่วนสูง"
+            android:textSize="20dp"
+            android:paddingLeft="40dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="แสดงส่วนสูง"
+            android:layout_marginLeft="65dp"
+            android:textSize="16dp"
+            android:textColor="#EF5350"
+            android:id="@+id/show_height"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  ซม."
+            android:textSize="16dp"
+            android:textColor="#EF5350"
+            android:gravity="center"/>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:elevation="2dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btnreset"
+            android:id="@+id/btnResetCal"
+            android:text="ตั่งค่าข้อมูลใหม่"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

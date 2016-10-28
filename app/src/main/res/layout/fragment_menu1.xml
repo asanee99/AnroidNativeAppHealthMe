@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.example.kaow.caltest.Menu1Fragment">
+
+
+    <TextView
+        android:id="@+id/menu"
+        android:text="เมนูอาหารแนะนำ"
+        android:layout_width="fill_parent"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_height="40dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/header_breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:elevation="2dp"
+                android:background="@android:drawable/divider_horizontal_dark"
+                android:text="มื้อเช้า"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/header_breakfast"
+                android:id="@+id/food_b_list">
+            </ListView>
+
+            <TextView
+                android:id="@+id/header_lunch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="2dp"
+                android:layout_below="@+id/food_b_list"
+                android:background="@android:drawable/divider_horizontal_dark"
+                android:text="มื้อกลางวัน"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/header_lunch"
+                android:id="@+id/food_l_list">
+            </ListView>
+
+            <TextView
+                android:id="@+id/header_dinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="2dp"
+                android:layout_below="@+id/food_l_list"
+                android:background="@android:drawable/divider_horizontal_dark"
+                android:text="มื้อเย็น"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/header_dinner"
+                android:id="@+id/food_d_list">
+            </ListView>
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="เลือกเมนูนี้"
+        android:elevation="3dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

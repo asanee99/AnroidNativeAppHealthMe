@@ -1,0 +1,260 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:background="@drawable/panelact"
+    tools:context=".MainActivity"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="3dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/insertinfobtn"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#fff"
+
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingLeft="10dp"
+                android:text="ชื่อผู้ใช้"
+                android:textColor="#000"
+                android:textSize="18sp" />
+            <requestFocus />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:textColor="#FF7043"
+                android:inputType="text" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="เพศ"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+           />
+              
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" 
+            android:paddingLeft="30dp">         
+            <RadioButton
+                android:id="@+id/rbtWomen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:checked="true" />
+            <ImageView
+                android:id="@+id/women"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <RadioButton
+                android:id="@+id/rbtMen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                />
+            <ImageView
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+            />
+        </RadioGroup>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bmiResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:text="อายุ"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <requestFocus />
+        <EditText
+            android:id="@+id/ageET"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:ems="10"
+            android:textColor="#FF7043"
+            android:inputType="number" />
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
+            android:text="ปี"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:text="น้ำหนัก"
+                android:textColor="#000"
+                android:textSize="18sp" />
+            <requestFocus />
+            <EditText
+                android:id="@+id/weightET"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:ems="10"
+                android:textColor="#FF7043"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/bmrIntroduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="bottom"
+                android:text="กิโลกรัม"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="ส่วนสูง"
+            android:textColor="#000"
+            android:textSize="18sp" />
+            <requestFocus />
+            <EditText
+                android:id="@+id/heightET"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textColor="#FF7043"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingLeft="5dp"
+                android:text="เซนติเมตร"
+                android:textColor="#000"
+                android:textSize="16sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:text="กิจกรรม"
+                android:textColor="#000"
+                android:textSize="18sp" />
+        	<Spinner
+        	    android:id="@+id/spinnerFoodID"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="#FF7043"
+        	    android:layout_marginRight="10dp"
+        	    android:layout_gravity="center"
+        	    />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnIntroduce"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btnprocess"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

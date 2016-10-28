@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textFieldStyle" format="reference"/>
+    <string-array name="CalItems">
+        <item >เวลาที่จะใช้ในการออกกำลังกาย(นาที)</item>
+        <item >ปริมาณแคลอรี่ที่ต้องการเผาผลาญ(กิโลแคลอรี่)</item>
+    </string-array>
+</resources>

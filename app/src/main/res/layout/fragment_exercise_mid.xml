@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    tools:context="com.example.kaow.caltest.ExerciseMidFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/exercise2"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/showHbeat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="200"
+        android:gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

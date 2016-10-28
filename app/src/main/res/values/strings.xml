@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">HEALTH ME</string>
+    <string name="filluser">Enter your Email</string>
+    <string name="fillpass">Enter your password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Button1">หน้าAddData1</string>
+    <string name="Button2">หน้าAddData2</string>
+    <string name="label_fname">your First Name</string>
+    <string name="label_lname">your Last Name</string>
+    <string name="label_submit">Submit</string>
+
+    <string name="title_activity_food_swipe">FoodSwipe</string>
+
+    <string name="title_section1">อาหารเช้า</string>
+    <string name="title_section2">อาหารกลางวัน</string>
+    <string name="title_section3">อาหารเย็น</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">เพิ่มข้อมูลอาหาร</string>
+
+    <string name="alert_title">Delete this friend?</string>
+    <string name="alert_message">Are you sure to delete this friend?</string>
+
+    <string name="add_data_title">เริ่มต้นการใช้งาน</string>
+    <string name="add_data_message">ข้อมูลนี่จะเป็นข้อมูลพื้นฐานของคุณ</string>
+
+    <string name="change_data_title">เริ่งตั่งค่าข้อมูลใหม่</string>
+    <string name="change_data_message">คุณต้องการตั่งค่าข้อมูลใหม่ใช่หรือไม่</string>
+
+    <string name="fit_cal">แคลอรี่ที่เหมาะสมกับคุณ คือ</string>
+    <string name="title_activity_tab_main">CARELOWRIES</string>
+
+    <string-array name="planets_array">
+        <item>อาหารจานหลัก</item>
+        <item>อาหารจานด่วน</item>
+        <item>ของว่าง</item>
+        <item>ผลไม้</item>
+        <item>ผัก</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_drawer_food">DrawerFood</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="homefrag">Home</string>
+    <string name="frag1">Frag 1</string>
+    <string name="frag2">Frag 2</string>
+    <string name="frag3">Frag 3</string>
+    <string name="frag4">Frag 4</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="title_activity_all_food">AllFood</string>
+    <string name="title_activity_food_main">FoodMain</string>
+    <string name="title_activity_food_fast">FoodFast</string>
+    <string name="title_activity_up_food">UpFood</string>
+    <string name="title_activity_down_food">DownFood</string>
+    <string name="title_activity_appetizer">Appetizer</string>
+    <string name="title_activity_fruit">Fruit</string>
+    <string name="title_activity_vegetable">Vegetable</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_exercise_lite">ExerciseLite</string>
+    <string name="title_activity_exercise_mid">ExerciseMid</string>
+    <string name="title_activity_exercise_heavy">ExerciseHeavy</string>
+    <string name="title_activity_develop">Develop</string>
+    <string name="title_activity_user_info">user_info</string>
+    <string name="title_activity_user_info1">UserInfo1</string>
+    <string name="title_activity_user_info2">UserInfo2</string>
+    <string name="title_activity_exercise_new">Exercise_new</string>
+    <string name="title_activity_ecercise__recly">Ecercise_Recly</string>
+    <string name="title_activity_exer__info">EXER_INFO</string>
+    <string name="title_activity_food_menu">FoodMenu</string>
+    <string name="title_activity_menu1">Menu1</string>
+    <string name="title_activity_sum_food">SumFood</string>
+    <string name="title_activity_exer_list">รายการการออกกำลังกาย</string>
+    <string name="title_activity_cal_exer">คำนวณการออกกำลังกาย</string>
+
+</resources>
